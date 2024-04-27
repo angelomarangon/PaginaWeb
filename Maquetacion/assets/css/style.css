@@ -795,6 +795,7 @@ body{
 
 .author__img{
     border-radius: 30px;
+    max-width: 65px;
 }
 
 .author__content{
