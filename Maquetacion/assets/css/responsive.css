@@ -1,0 +1,127 @@
+
+/* Pantallas grandes superiores a 1600px*/
+@media (min-width: 1600px){
+    .layout{
+        min-width: 1600px;
+    }
+
+    .layout__menu{
+        padding: 4rem 6rem;
+    }
+
+    .layout__banner{
+        position: relative;
+        min-height: 85rem;
+        margin: 0 6rem;
+        padding: 25rem 0 30rem 20rem;
+        border-radius: 60px;
+        
+    
+    }
+}
+
+@media (max-width: 1600px){
+    .layout__banner{
+        position: relative;
+        min-height: 65rem;
+        margin: 0 6rem;
+        padding: 25rem 0 30rem 20rem;
+        border-radius: 60px;
+        
+    
+    }
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+    .layout{
+        /* overflow: hidden; */
+    }
+
+    .reviews__grid,
+    .services__grid,
+    .news__container,
+    .stats__container,
+    .clients__container,
+    .contact__container,
+    .footer__container{
+        max-width: 100%;
+        padding: 0 5rem;
+    }
+
+    .projects__grid{
+        max-width: 100%;
+        padding: 9rem 5rem;
+    }
+
+    .footer__social{
+        justify-content: space-between;
+        gap: 0;
+    }
+}
+
+@media (max-width:1200px){
+
+    .layout{
+        max-width: 900px;
+    }
+    .footer__social{
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .projects__all{
+        gap: 3rem 4rem;
+    }
+
+    .services__grid{
+        padding: 0 5rem;
+    }
+
+
+
+    .nav__item{
+        padding: 0 2rem;
+    }
+
+    .banner__title{
+        font-size: 6rem;
+    }
+
+    .services__service{
+    
+        padding: 4rem 1.5rem;
+    }
+
+    .service__container-img{
+        max-width: 6.5rem;
+    }
+
+    .layout__stats, .layout__clients{
+        padding: 10rem 20rem; 
+    }
+
+    .clients__logos{
+        gap: 5rem;
+    }
+
+    .news__list{
+        flex-direction: column;
+    }
+
+    .news__new:nth-child(2){
+        border-left: none;
+    }
+}
+
+@media(max-width:1000px){
+    .navbar__nav{
+        display: none;
+    }
+
+    .shapes__item{
+        width: 50%;
+
+    }
+
+
+}
