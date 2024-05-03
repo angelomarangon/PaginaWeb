@@ -485,7 +485,7 @@ body{
 }
 
 .service__container-img{
-    max-width: 8.5rem;
+    max-width: 6rem;
     margin-right: 2rem;
     flex: 1;
 }

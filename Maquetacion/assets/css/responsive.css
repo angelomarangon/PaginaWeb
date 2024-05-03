@@ -144,6 +144,11 @@
         left: 71%;
     }
 
+    .clients__header {
+        position: relative;
+        z-index: 2;
+    }
+
 
 }
 
@@ -234,6 +239,10 @@
         flex-direction: column;
     }
 
+    .news__new:last-child {
+        border-left: none;
+    }
+
     .contact__images::before {
 
         width: 80%;
@@ -251,6 +260,7 @@
     .contact__images::before {
         bottom: -158%;
     }
+
     .contact__img {
         width: 90%;
     }
@@ -269,39 +279,39 @@
         margin-bottom: 26rem;
     }
 
-    .layout__footer{
+    .layout__footer {
         padding: 0 3rem;
     }
 
-    .footer__top{
+    .footer__top {
         margin-bottom: 5rem;
     }
 
-    .footer__main{
+    .footer__main {
         margin-bottom: 6rem;
     }
 
-    .fleft__subtitle{
+    .fleft__subtitle {
         font-size: 1.9rem;
     }
 
-    .fleft__container{
+    .fleft__container {
         padding-right: 4rem;
     }
 
-    .widget__link{
+    .widget__link {
         font-size: 1.9rem;
     }
 
-    .footer__botton{
+    .footer__botton {
         padding: 3rem 0;
     }
 
-    .copyright__text{
+    .copyright__text {
         font-size: 1.6rem;
     }
 
-    .flinks__title{
+    .flinks__title {
         font-size: 1.6rem;
     }
 
@@ -309,15 +319,320 @@
         right: -7%;
     }
 
-    .nav__item{
+    .nav__item {
         margin: 0 2rem;
     }
 
-    .layout__banner{
+    .layout__banner {
         padding-left: 10rem;
     }
 
-    .banner__title{
+    .banner__title {
         margin-top: 5rem;
     }
 }
+
+@media (max-width:1000px) {
+    .layout {
+        min-width: auto;
+    }
+
+    .navbar__nav {
+        display: none;
+    }
+
+    .services__header {
+        margin-bottom: 6rem;
+    }
+
+    .services__list {
+        flex-direction: column;
+    }
+
+    .services__service {
+        padding: 4rem 2rem;
+        margin: 0 0 3rem;
+        width: 95%;
+    }
+
+    .service__link {
+        font-size: 2.8rem;
+    }
+
+    .service__container-img {
+        max-width: 8rem;
+        margin-right: 3rem;
+    }
+
+    .service__description {
+        font-size: 2rem;
+    }
+
+    .service__more::before {
+        left: -6%;
+    }
+
+    .service-shapes--shape2 {
+        top: 5%;
+        right: 48%;
+    }
+
+    .service-shapes--shape3 {
+        top: 71%;
+        left: -2%;
+
+    }
+
+    .layout__services {
+        margin: 10rem 3rem;
+    }
+
+    .stat__count {
+        font-size: 6rem;
+    }
+
+    .stat__title {
+        font-size: 1.8rem;
+    }
+
+    .services__subtitle,
+    .projects__subtitle,
+    .stats__subtitle,
+    .reviews__subtitle,
+    .clients__subtitle,
+    .news__subtitle,
+    .contact__subtitle {
+        font-size: 1.8rem;
+    }
+
+    .services__title,
+    .projects__title,
+    .stats__title,
+    .reviews__title,
+    .clients__title,
+    .news__title,
+    .fleft__title,
+    .contact__title {
+        font-size: 5rem;
+    }
+
+    .contact__btn {
+        padding: 2rem 4rem;
+    }
+
+    .social__img{
+        font-size: 2.8rem;
+    }
+
+    .footer__fright {
+        padding-left: 2rem;
+    }
+
+    .widget__title {
+        font-size: 2.1rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .widget__link {
+        font-size: 1.8rem;
+        padding: 1rem 0;
+    }
+
+    .footer__main{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .fleft__container{
+        margin-bottom: 6rem;
+        border: none;
+        width: 80%;
+    }
+
+    .footer__fright{
+        padding-left: 0;
+    }
+
+    /* .fleft__btn {
+        padding: 1.2rem 1rem;
+        border-radius: 15px;
+        font-size: 1.3rem;
+        top: 9%;
+    }
+
+    .fleft__form-control {
+        height: 5rem;
+        padding-left: 3.2rem;
+        border-radius: 17px;
+        box-shadow: -12px 25px 50px -18px rgba(0,0,0,.25);
+        font-size: 1.5rem;
+        /* border: 1px solid red; */
+/* 
+    }
+
+    .fleft__icon {
+        top: 31%;
+        left: 2%;
+        font-size: 1.7rem;
+    }  */
+
+    .project__link-title {
+        font-size: 2.8rem;
+    }
+
+    .project__content {
+        padding: 4rem;
+    }
+
+    .projects__all {
+        gap: 3rem 2rem;
+    }
+
+    .stats__header {
+        margin-bottom: 10rem;
+    }
+
+    .stats__progress {
+        gap: 3;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .stats_stat {
+        width: calc(50% - 1.5rem);
+    }
+
+    .new__link {
+        font-size: 2.5rem;
+    }
+
+    .fleft__subtitle {
+        font-size: 1.5rem;
+    }
+
+    .fleft__form {
+        margin-top: 3rem;
+    }
+
+    .layout__contact {
+        padding-top: 8rem;
+        margin-bottom: 20rem;
+    }
+
+    .layout__services {
+        margin: 0;
+    }
+
+    .service-shapes--shape1 {
+        width: 60%;
+        top: 9%;
+    }
+
+    .layout__news,
+    .layout__clients,
+    .layout__reviews,
+    .layout__stats,
+    .projects__grid,
+    .layout__services {
+        padding: 8rem 3rem;
+    }
+
+    .project-shapes--shape2 {
+        top: 42%;
+        left: 84%;
+    }
+
+    .reviews__container {
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+    .review__description {
+        font-size: 1.9rem;
+        margin-bottom: 2rem;
+    }
+
+    .review__author {
+        gap: 1rem;
+    }
+
+    .author__img {
+        width: 55px;
+    }
+
+    .author__name {
+        font-size: 1.7rem;
+    }
+
+    .author__job {
+        font-size: 1.5rem;
+    }
+
+    .clients__logos {
+        margin-top: 5rem;
+        flex-wrap: wrap;
+    }
+
+    .clients__item {
+        width: calc(50%);
+        justify-content: center;
+        text-align: center;
+    }
+
+    .clients__img {
+        width: 80%;
+        display: inline-block;
+    }
+
+    .contact__img {
+        width: 70%;
+    }
+
+    .contact__thumb--mobile {
+        left: 64%;
+    }
+
+    .layout__contact {
+        padding-top: 12rem;
+        padding-bottom: 20rem;
+    }
+
+    .contact__thumb,
+    .contact__images::before {
+        bottom: -128%;
+    }
+
+    .footer__botton{
+        padding: 1.5rem 0;
+        align-items: center;
+        
+    }
+
+    .copyright__text{
+        font-size: 1.2rem;
+    }
+
+    .flinks__title{
+        font-size: 1.2rem;
+    }
+    .flinks__item--separator::after {
+        right: -10%;
+    }
+}
+
+@media (max-width:780px){
+    .layout__banner{
+        min-height: 100%;
+        padding: 4rem 3rem;
+    }
+
+    .banner__title{
+        margin-top: 2rem;
+        font-size: 4.8rem;
+    }
+
+    .banner__btn{
+        padding: 2rem 2.5rem;
+        border-radius: 15px;
+    }
+}   
