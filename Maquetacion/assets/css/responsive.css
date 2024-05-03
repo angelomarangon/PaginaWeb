@@ -420,7 +420,7 @@
         padding: 2rem 4rem;
     }
 
-    .social__img{
+    .social__img {
         font-size: 2.8rem;
     }
 
@@ -438,18 +438,18 @@
         padding: 1rem 0;
     }
 
-    .footer__main{
+    .footer__main {
         flex-direction: column;
         margin-bottom: 2rem;
     }
 
-    .fleft__container{
+    .fleft__container {
         margin-bottom: 6rem;
         border: none;
         width: 80%;
     }
 
-    .footer__fright{
+    .footer__fright {
         padding-left: 0;
     }
 
@@ -467,7 +467,7 @@
         box-shadow: -12px 25px 50px -18px rgba(0,0,0,.25);
         font-size: 1.5rem;
         /* border: 1px solid red; */
-/* 
+    /* 
     }
 
     .fleft__icon {
@@ -602,36 +602,37 @@
         bottom: -128%;
     }
 
-    .footer__botton{
+    .footer__botton {
         padding: 1.5rem 0;
         align-items: center;
-        
+
     }
 
-    .copyright__text{
+    .copyright__text {
         font-size: 1.2rem;
     }
 
-    .flinks__title{
+    .flinks__title {
         font-size: 1.2rem;
     }
+
     .flinks__item--separator::after {
         right: -10%;
     }
 }
 
-@media (max-width:780px){
-    .layout__banner{
+@media (max-width:780px) {
+    .layout__banner {
         min-height: 100%;
         padding: 4rem 3rem;
     }
 
-    .banner__title{
+    .banner__title {
         margin-top: 2rem;
         font-size: 4.8rem;
     }
 
-    .banner__btn{
+    .banner__btn {
         padding: 2rem 2.5rem;
         border-radius: 15px;
     }
@@ -657,7 +658,7 @@
         font-size: 4rem;
     }
 
-    .fleft__container{
+    .fleft__container {
         width: 100%;
     }
 
@@ -670,33 +671,34 @@
         padding: 6rem 3rem;
     }
 
-    .projects__all{
+    .projects__all {
         flex-direction: column;
     }
 
-    .projects__project{
+    .projects__project {
         width: 100%;
     }
 
-    .layout__contact{
+    .layout__contact {
         padding-top: 5rem;
     }
 
-    .news__new{
+    .news__new {
         flex-direction: column;
     }
 
-    .new__container-img{
+    .new__container-img {
         margin-bottom: 2rem;
         margin-right: 0;
     }
 }
 
-@media (max-width:640px){
+@media (max-width:640px) {
 
-    .layout{
+    .layout {
         overflow-x: hidden;
     }
+
     .services__grid,
     .projects__grid,
     .stats__container,
@@ -704,29 +706,30 @@
     .reviews__grid,
     .clients__container,
     .news__container,
-    .footer__container{
+    .footer__container {
         max-width: 54rem;
     }
 
-    .navbar__logo-light{
+    .navbar__logo-light {
         width: 80%;
     }
 
-    .layout__menu{
+    .layout__menu {
         padding: 2rem 1.5rem;
     }
 
-    .layout__banner{
+    .layout__banner {
         padding: 3rem 1rem;
         max-height: 25rem;
         margin: 0 1.5rem;
         border-radius: 25px;
     }
 
-    .banner__title{
+    .banner__title {
         font-size: 2.5rem;
     }
-    .banner__btn{
+
+    .banner__btn {
         padding: 1rem;
         font-size: 1.3rem;
         border-radius: 10px;
@@ -762,24 +765,28 @@
         padding: 5rem 1.5rem;
     }
 
-    .service__title{
+    .service__title {
         margin-bottom: 1.5rem;
     }
-    .service__link{
+
+    .service__link {
         font-size: 2rem;
     }
-    .service__description{
+
+    .service__description {
         font-size: 1.5rem;
         margin-bottom: 1.5rem;
     }
-    .service__more{
+
+    .service__more {
         font-size: 1.5rem;
     }
-    .service__more::before{
+
+    .service__more::before {
         left: -25%;
     }
 
-    .services__service{
+    .services__service {
         padding: 2rem;
     }
 
@@ -794,92 +801,97 @@
         margin: 3rem 0;
         justify-content: space-around;
     }
-    .categories__item{
+
+    .categories__item {
         font-size: 1.2rem;
     }
 
-    .project__link-title{
+    .project__link-title {
         font-size: 2.5rem;
     }
-    .project__tag{
+
+    .project__tag {
         font-size: 1.5rem;
     }
 
-    .stats__description{
+    .stats__description {
         font-size: 1.5rem;
     }
 
-    .stats__header{
+    .stats__header {
         margin-bottom: 3rem;
     }
 
-    .stat__count{
+    .stat__count {
         font-size: 4rem;
     }
-    .stat__title{
+
+    .stat__title {
         font-size: 1.2rem;
     }
 
     .reviews__description,
-    .news__description{
+    .news__description {
         font-size: 1.8rem;
         margin-top: 1.5rem;
     }
 
     .reviews__header,
-    .news__header{
+    .news__header {
         margin-bottom: 3rem;
     }
 
-    .review__description{
+    .review__description {
         font-size: 1.7rem;
     }
 
 
-    .clients__desciption{
+    .clients__desciption {
         font-size: 1.7rem;
-        
+
     }
-    .review__img{
+
+    .review__img {
         margin-bottom: 1.5rem;
     }
 
-    .new__link{
+    .new__link {
         font-size: 2rem;
     }
 
-    .new__description{
+    .new__description {
         font-size: 1.7rem;
     }
 
-    .news__new{
+    .news__new {
         padding: 3rem 1.5rem;
     }
 
-    .contact__btn{
+    .contact__btn {
         margin-top: 1.5rem;
         padding: 2rem 3rem;
     }
 
-    .contact__thumb{
+    .contact__thumb {
         min-width: 100%;
         bottom: -90%;
     }
 
-    .contact__thumb-1 .contact__img{
-        width: 62%; 
+    .contact__thumb-1 .contact__img {
+        width: 62%;
         left: 22%;
     }
 
-    .contact__thumb--laptop .contact__img{
+    .contact__thumb--laptop .contact__img {
         width: 30%;
         left: -5%;
     }
 
-    .contact__thumb--mobile .contact__img{
+    .contact__thumb--mobile .contact__img {
         width: 28%;
         left: 52%;
     }
+
     .contact__images::before {
         bottom: -90%;
     }
@@ -889,8 +901,64 @@
         margin-bottom: 13rem;
     }
 
-    .contact__btn{
+    .contact__btn {
         font-size: 1.8rem;
         padding: 2rem;
+    }
+
+
+
+    .layout__footer {
+        padding: 0 1.5rem;
+    }
+
+    .fleft__container {
+        padding: 0;
+    }
+
+    .fleft__form-control {
+        /* border: 1px solid red; */
+        height: 6rem;
+        font-size: 1.2rem;
+        padding-left: 4rem;
+        border-radius: 18px;
+        box-shadow: -8px 12px 40px -25px black;
+    }
+
+    .fleft__icon {
+        font-size: 1.7rem;
+        top: 32%;
+        left: 4%;
+    }
+
+    .fleft__btn {
+        font-size: 1.8rem;
+        padding: 1.5rem 1.2rem;
+        border-radius: 18px;
+        top: 6%;
+    }
+
+
+    .widget__title {
+        font-size: 1.8rem;
+    }
+
+    .widget__link {
+        font-size: 1.5rem;
+        padding-bottom: .2rem;
+    }
+
+
+
+    .footer__botton {
+        flex-direction: column;
+    }
+
+    .footer__flinks {
+        gap: 0;
+    }
+
+    .flinks__item--separator::after {
+        right: 5%;
     }
 }
