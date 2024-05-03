@@ -693,6 +693,10 @@
 }
 
 @media (max-width:640px){
+
+    .layout{
+        overflow-x: hidden;
+    }
     .services__grid,
     .projects__grid,
     .stats__container,
@@ -702,6 +706,14 @@
     .news__container,
     .footer__container{
         max-width: 54rem;
+    }
+
+    .navbar__logo-light{
+        width: 80%;
+    }
+
+    .layout__menu{
+        padding: 2rem 1.5rem;
     }
 
     .layout__banner{
@@ -719,4 +731,61 @@
         font-size: 1.3rem;
         border-radius: 10px;
     }
+
+    .services__subtitle,
+    .projects__subtitle,
+    .stats__subtitle,
+    .reviews__subtitle,
+    .clients__subtitle,
+    .news__subtitle,
+    .contact__subtitle {
+        font-size: 1.3rem;
+    }
+
+    .services__title,
+    .projects__title,
+    .stats__title,
+    .reviews__title,
+    .clients__title,
+    .news__title,
+    .fleft__title,
+    .contact__title {
+        font-size: 2.8rem;
+    }
+
+    .layout__news,
+    .layout__clients,
+    .layout__reviews,
+    .layout__stats,
+    .projects__grid,
+    .layout__services {
+        padding: 3rem 1.5rem;
+    }
+
+    .service__title{
+        margin-bottom: 1.5rem;
+    }
+    .service__link{
+        font-size: 2rem;
+    }
+    .service__description{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .service__more{
+        font-size: 1.5rem;
+    }
+    .service__more::before{
+        left: -25%;
+    }
+
+    .services__service{
+        padding: 2rem;
+    }
+
+    .service-shapes--shape2 {
+        top: 9%;
+        right: 52%;
+    }
+
 }
