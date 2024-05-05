@@ -56,6 +56,19 @@ body {
 
 }
 
+.menu__navbar--fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--color-secondary);
+    padding: 1.5rem 3rem;
+
+    z-index: 100;
+
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
 .navbar__logo {
     width: 200px;
 }
