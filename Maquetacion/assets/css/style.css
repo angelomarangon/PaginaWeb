@@ -1618,19 +1618,33 @@ body {
     font-size: 1.5rem;
     transform: rotate(90deg);
 
-    transition: all 300ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+.menu-mobile__icon--active{
+    transform: rotate(0);
 }
 
 
 .menu-mobile__submenu{
     display: none;
+    visibility: hidden;
+    opacity: 0;
+    
 }
 
+.menu-mobile__submenu--active{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
 .submenu-mobile__item{
-    transform: translateX(0);
     padding: .8rem 0;
 
-    transition: all 300ms ease-in-out;
+    
 }
 
 
