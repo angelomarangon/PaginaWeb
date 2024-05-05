@@ -17,11 +17,112 @@
     <!-- Responsive -->
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <!-- Scripts js -->
-    <script src="" defer></script>
+    <script src="./assets/js/menu-mobile.js" defer></script>
 
 </head>
 
 <body>
+    <!-- Menu Responsive -->
+    <div class="menu-mobile">
+        <header class="menu-mobile__header">
+            <div class="menu-mobile__container-logo">
+                <a class="menu-mobile__link-logo" href="#">
+                    <img src="./assets/img/logo1.png" alt="" class="menu-mobile__logo">
+                </a>
+            </div>
+            <button class="menu-mobile__close">
+                <i class="menu-mobile__icon-close fa-solid fa-xmark"></i>
+            </button>
+        </header>
+
+        <div class="menu-mobile__body">
+            <nav class="menu-mobile__nav">
+                <ul class="menu-mobile__list">
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__option">Inicio</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__option">Servicios
+                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <!-- Sub nav -->
+                        <ul class="menu-mobile__submenu">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Diseño web</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Desarrollo web</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Desarrollo de apps</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Programación</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Consultoria</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__option">Portafolio
+                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <!-- Sub nav -->
+                        <ul class="menu-mobile__submenu">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Diseño web</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Desarrollo web</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Desarrollo de apps</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Programación</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Consultoria</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__option">Blog
+                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <!-- Sub nav -->
+                        <ul class="menu-mobile__submenu">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Diseño web</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Desarrollo web</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Desarrollo de apps</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Programación</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__option">Consultoria</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__option">Equipo</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__option">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+    <!-- Contenido Principal -->
     <div class="layout">
 
         <!-- MENU -->
@@ -33,6 +134,15 @@
                     <a href="#" class="navbar__link-logo">
                         <img src="./assets/img/logo1.png" class="navbar__logo-light" alt="">
                     </a>
+                </div>
+
+                <!-- Boton menu responsive -->
+                <div class="navbar__btn-menu">
+                    <button class="btn-menu__container">
+                        <span class="btn-menu__line"></span>
+                        <span class="btn-menu__line"></span>
+                        <span class="btn-menu__line"></span>
+                    </button>
                 </div>
 
                 <!-- Navegacion -->
@@ -457,7 +567,8 @@
                     <h4 class="stats__subtitle">Agencia de diseño y desarrollo</h4>
                     <h2 class="stats__title">Estadisitcas de trabajos realizados</h2>
                     <p class="stats__description">Aqui podras ver un pequeño resumen de nuestras estadisticas en estos
-                        <br>años de trabajo.</p>
+                        <br>años de trabajo.
+                    </p>
                 </header>
 
                 <!-- Contenido -->
@@ -657,7 +768,8 @@
                                 <a href="#" class="new__link">Como maquetar una web con HTML5 y CSS3</a>
                             </h3>
 
-                            <p class="new__description">¿Quieres dar tus primeros pasos en el desarrollo web y aprender a crear webs
+                            <p class="new__description">¿Quieres dar tus primeros pasos en el desarrollo web y aprender
+                                a crear webs
                                 espectaculares?</p>
 
                             <a href="#" class="new__more">
@@ -675,7 +787,8 @@
                                 <a href="#" class="new__link">Como maquetar una web con HTML5 y CSS3</a>
                             </h3>
 
-                            <p class="new__description">¿Quieres dar tus primeros pasos en el desarrollo web y aprender a crear webs
+                            <p class="new__description">¿Quieres dar tus primeros pasos en el desarrollo web y aprender
+                                a crear webs
                                 espectaculares?</p>
 
                             <a href="#" class="new__more">

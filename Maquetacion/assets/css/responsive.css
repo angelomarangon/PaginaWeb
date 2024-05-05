@@ -333,6 +333,10 @@
 }
 
 @media (max-width:1000px) {
+
+    .navbar__btn-menu{
+        display: block;
+    }
     .layout {
         min-width: auto;
     }
@@ -960,5 +964,17 @@
 
     .flinks__item--separator::after {
         right: 5%;
+    }
+
+    .social__img{
+        font-size: 2.5rem;
+    }
+
+    .footer__widget--50{
+        flex-basis: 45%;
+    }
+
+    .footer__fright{
+        gap: 1rem;
     }
 }
