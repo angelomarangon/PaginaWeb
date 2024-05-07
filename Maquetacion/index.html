@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <!-- Estilos ccs -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Dark style -->
+    <!-- <link rel="stylesheet" href="./assets/css/dark.css"> -->
     <!-- Fuente css -->
     <link rel="stylesheet" href="./assets/font/dmsans/dmsans.css">
     <!-- Iconos -->
@@ -19,10 +21,24 @@
     <!-- Scripts js -->
     <script src="./assets/js/menu-mobile.js" defer></script>
     <script src="./assets/js/navbar-fixed.js" defer></script>
+    <script src="./assets/js/dark-mode.js" defer></script>
 
 </head>
 
 <body>
+
+    <!-- Boton modo oscuro -->
+    <div class="switcher">
+        <button class="switcher__btn">
+            <span class="switcher__icon-light">
+                <i class="fa-solid fa-moon switcher__icon"></i>
+            </span>
+
+            <span class="switcher__icon-dark">
+                <i class="fa-solid fa-sun switcher__icon"></i>
+            </span>
+        </button>
+    </div>
     <!-- Menu Responsive -->
     <div class="menu-mobile">
         <header class="menu-mobile__header">
