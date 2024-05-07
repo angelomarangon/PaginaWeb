@@ -414,6 +414,7 @@ body {
 }
 
 .shapes__item--shape6 {
+    
     bottom: 10rem;
     left: 45%;
     animation: moveShape6 34s infinite;
@@ -439,6 +440,7 @@ body {
 }
 
 .shapes__item--shape7 {
+    
     top: 0;
     right: 10rem;
 

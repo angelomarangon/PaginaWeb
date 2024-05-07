@@ -712,6 +712,123 @@
         margin-bottom: 2rem;
         margin-right: 0;
     }
+
+    .shapes__item--shape3 {
+        top: 84%;
+        left: 58%;
+    
+        animation: moveShape3 20s infinite;
+    }
+    
+    @keyframes moveShape3 {
+        0% {
+            transform: translate(0, 0);
+        }
+    
+        40% {
+            transform: translate(50px, -20px);
+        }
+    
+        75% {
+            transform: translate(-60px, 40px);
+        }
+    
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+
+    .shapes__item--shape4 {
+        bottom: 50%;
+        left: 10%;
+        animation: moveShape4 28s infinite;
+    }
+    
+    @keyframes moveShape4 {
+        0% {
+            transform: translate(0, 0);
+        }
+    
+        40% {
+            transform: translate(100px, 180px);
+        }
+    
+        75% {
+            transform: translate(-120px, -120px);
+        }
+    
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+
+    .shapes__item--shape5 {
+        bottom: 10%;
+        left: initial;
+        right: -40%;
+        opacity: .7;
+        animation: moveShape5 45s infinite;
+    }
+    
+    @keyframes moveShape5 {
+        0% {
+            transform: translate(0, 0);
+    
+        }
+    
+        40% {
+            transform: translate(-150px, -100px);
+    
+        }
+    
+        65% {
+            transform: scale(1.5);
+        }
+    
+        75% {
+            transform: translate(-400px, -200px);
+    
+        }
+    
+        85% {
+            transform: scale(2);
+        }
+    
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+
+    .shapes__item--shape6 {
+    
+        bottom: 10rem;
+        left: 45%;
+        animation: moveShape6 34s infinite;
+    }
+    
+    @keyframes moveShape6 {
+        0% {
+            transform: translate(0, 0);
+        }
+    
+        40% {
+            transform: translate(-10px, -50px);
+        }
+    
+        75% {
+            transform: translate(-40px, 10px);
+        }
+    
+        100% {
+            transform: translate(0, 0);
+    
+        }
+    }
+
+    .service-shapes--shape2 {
+        top: 44%;
+        right: 0%;
+    }
 }
 
 @media (max-width:640px) {
@@ -811,10 +928,10 @@
         padding: 2rem;
     }
 
-    .service-shapes--shape2 {
+    /* .service-shapes--shape2 {
         top: 9%;
         right: 52%;
-    }
+    } */
 
     .projects__categories {
         display: flex;
