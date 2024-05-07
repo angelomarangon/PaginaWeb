@@ -1661,6 +1661,10 @@ body {
     
 }
 
+.submenu-mobile__option{
+    padding-left: 2rem;
+}
+
 
 
 /* Modo oscuro */
@@ -1670,10 +1674,6 @@ body {
     left: 0;
     top: 25%;
     z-index: 99999999;
-    
-
-  
-    
 
 }
 

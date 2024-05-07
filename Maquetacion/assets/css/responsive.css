@@ -334,6 +334,23 @@
 
 @media (max-width:1000px) {
 
+    .switcher{
+        left: initial;
+        right: 0;
+        top: 25%;
+        z-index: 99999999;
+    }
+
+    .switcher__btn{
+        border-radius: 40px 0 0 40px;    
+    }
+    
+    
+
+
+
+
+
     .navbar__btn-menu{
         display: block;
     }

@@ -97,3 +97,15 @@ body{
 .widget__link:hover, .flinks__title:hover{
     color: var(--color-hover-dark);
 }
+
+.btn-menu__container{
+    background-color: var(--color-primary);
+}
+
+.menu-mobile{
+    background-color: var(--color-primary);
+}
+
+.menu-mobile__close{
+    background-color: var(--color-primary);
+}

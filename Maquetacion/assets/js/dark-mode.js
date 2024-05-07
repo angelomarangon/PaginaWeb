@@ -16,15 +16,18 @@ switcher.addEventListener('click', ()=>{
     let img_logo = document.querySelector('.navbar__logo-light');
     let iconD = document.querySelector(".switcher__icon-dark");
     let iconL = document.querySelector(".switcher__icon-light");
+    let mobile_logo = document.querySelector('.menu-mobile__logo');
 
     if(themeDark){
         head.removeChild(themeDark);
         img_logo.src = "./assets/img/logo1.png";
+        mobile_logo.src = "./assets/img/logo1.png";
         iconL.style.display = "block";
         iconD.style.display = "none";
     }else {
         head.appendChild(link);
         img_logo.src = "./assets/img/logo2.png";
+        mobile_logo.src = "./assets/img/logo2.png";
         iconL.style.display = "none";
         iconD.style.display = "block";
     }
